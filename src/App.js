@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <h1>Title</h1>
-      <Animal animal="dog"/>
+      <Animal animal="dog" name="Rocco"/>
       <Animal animal="cat"/>
       <Animal animal="tiger"/>
       <Animal animal="eagle"/>
