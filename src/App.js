@@ -1,14 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+//imports
+import Animal from './Animal'
+import Human from './Human'
 
-function Hello() {
+function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Hello
-        </p>
-      </header>
+    <div>
+      <h1>Title</h1>
+      <Animal animal="dog"/>
+      <Animal animal="cat"/>
+      <Animal animal="tiger"/>
+      <Animal animal="eagle"/>
+      <Animal animal="lion"/>
+      <Human name="Swatz" location="Sea-Town"/>
     </div>
   );
 }
